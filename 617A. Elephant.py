@@ -1,0 +1,19 @@
+i = int(input())
+j = 0
+while i != 0:
+    if i >= 5:
+        i -= 5
+        j += 1
+    elif i >= 4:
+        i -= 4
+        j += 1
+    elif i >= 3:
+        i -= 3
+        j += 1
+    elif i >= 2:
+        i -= 2
+        j += 1
+    elif i >= 1:
+        i -= 1
+        j += 1
+print(j)
